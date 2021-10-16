@@ -1,0 +1,52 @@
+* {
+    margin: 0 auto;
+}
+
+body {
+    width: 100%;
+    background-image: src "img/notebook";
+}
+header {
+    display: flex;
+    align-items: flex-end;
+    padding: 50px 0;
+}
+main {
+    width: 100%;
+
+}
+.btn-cart {
+    background-color: rgb(138, 132, 180);
+}
+.products {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 20px;
+}
+.product-item {
+    display: flex;
+    padding: 10px;
+    border: 1px solid black;
+    width: 100px;
+    height: 80px;
+    flex-direction: column;
+    background-color: rgb(171, 201, 224);
+    margin-bottom: 30px;
+    background-image: url(img/mouse.jpg);
+}
+.product-item:hover {
+    background-color: rgb(185, 139, 122);
+}
+.product_title {
+    padding-bottom: 10px;
+}
+
+.product_price {
+    padding-bottom: 10px;
+}
+.buy-btn {
+    background-color: rgb(185, 182, 132);
+}
+.buy-btn:hover {
+    background-color: rgb(100, 165, 165);
+}
